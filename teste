@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+
+int main(){
+
+int num, i;
+
+  printf("Digite um número\n");
+  scanf("%d", &num);
+
+
+  while(num > 0){
+        if(num % 2 == 0){
+            printf("0\n");
+        }
+            else{
+            printf("1\n");
+            }
+    num /= 2;
+        }
+
+    return 0;
+  }
